@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Achievements, certifications, and highlights.">
+    <meta name="theme-color" content="#0b0f14">
+    <title>Achievements · Sushan Paudyal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <a href="#main" class="visually-hidden" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden">Skip to content</a>
+    <header class="site-header">
+        <a href="index.html" class="brand" aria-label="Home">
+            <span class="brand-mark">▮▮</span>
+            <span class="brand-text">Sushan Paudyal</span>
+        </a>
+        <div style="display:flex;gap:10px;align-items:center">
+            <button class="menu-toggle" aria-controls="site-nav" aria-expanded="false">Menu</button>
+        </div>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="page.html">Posts</a>
+            <a href="blog.html">Blog</a>
+            <a href="achievements.html">Achievements</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main id="main" class="container" tabindex="-1">
+        <div class="panel">
+            <div class="panel-head"><strong>Highlights</strong></div>
+            <div class="panel-body">
+                <div class="cards">
+                    <div class="card">
+                        <h3>Reported Critical Vulnerabilities</h3>
+                        <p>Documented exploitation paths and coordinated disclosure with remediation guidance.</p>
+                        <div class="meta"><span>#redteam</span><span>#vuln-research</span></div>
+                    </div>
+                    <div class="card">
+                        <h3>Adversary Emulation Playbooks</h3>
+                        <p>Built repeatable scenarios mirroring real-world TTPs with mapped detections.</p>
+                        <div class="meta"><span>#emulation</span><span>#mitre-attck</span></div>
+                    </div>
+                    <div class="card">
+                        <h3>Public Write-ups</h3>
+                        <p>Medium posts and notes on tradecraft, evasion, and OPSEC.</p>
+                        <div class="meta"><span>#writing</span><span>#community</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel" style="margin-top:20px">
+            <div class="panel-head"><strong>Certifications</strong></div>
+            <div class="panel-body">
+                <ul>
+                    <li>OSCP or equivalent offensive certs (placeholder)</li>
+                    <li>Azure/AWS security accreditation (placeholder)</li>
+                    <li>Additional trainings, labs, and CTF placements (placeholder)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="panel" style="margin-top:20px">
+            <div class="panel-head"><strong>Timeline</strong></div>
+            <div class="panel-body timeline">
+                <div class="timeline-item">
+                    <h4>Built and operated red team lab</h4>
+                    <small>2025 · Reduced test setup time by 60%</small>
+                </div>
+                <div class="timeline-item">
+                    <h4>Published AMSI/ETW evasion notes</h4>
+                    <small>2025 · Informed internal detections</small>
+                </div>
+                <div class="timeline-item">
+                    <h4>Delivered phishing campaign without macros</h4>
+                    <small>2025 · 35% improvement in initial access rate</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel" style="margin-top:20px">
+            <div class="panel-head"><strong>Case Studies</strong></div>
+            <div class="panel-body">
+                <div class="cards">
+                    <div class="card">
+                        <h3>EDR Evasion vs Stability</h3>
+                        <p><strong>Problem:</strong> Payloads flagged under heuristic rules.<br><strong>Approach:</strong> Shifted to staged loader with AMSI/ETW suppression.<br><strong>Result:</strong> 80% fewer detections in test lab.<br><strong>Mitigations:</strong> Add AMSI provider integrity checks.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Lateral Movement in Constrained Networks</h3>
+                        <p><strong>Problem:</strong> SMB/WinRM restricted; noisy fallback paths.<br><strong>Approach:</strong> Used constrained delegation and signed scripts.<br><strong>Result:</strong> Achieved DA with minimal alerts.<br><strong>Mitigations:</strong> Harden delegation configs and monitor SPNs.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Reporting That Drives Mitigation</h3>
+                        <p><strong>Problem:</strong> Findings lacked actionable fixes.<br><strong>Approach:</strong> Added clear attack chains and prioritized mitigations.<br><strong>Result:</strong> Teams closed 90% of items in one sprint.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel" style="margin-top:20px">
+            <div class="panel-head"><strong>Toolkit</strong></div>
+            <div class="panel-body">
+                <div class="toolkit">
+                    <div class="tool"><img src="assets/img/hero-grid.svg" alt="Tool"><small>Burp Suite</small></div>
+                    <div class="tool"><img src="assets/img/hero-grid.svg" alt="Tool"><small>nmap</small></div>
+                    <div class="tool"><img src="assets/img/hero-grid.svg" alt="Tool"><small>Mimikatz</small></div>
+                    <div class="tool"><img src="assets/img/hero-grid.svg" alt="Tool"><small>BloodHound</small></div>
+                    <div class="tool"><img src="assets/img/hero-grid.svg" alt="Tool"><small>Sliver/Cobalt</small></div>
+                    <div class="tool"><img src="assets/img/hero-grid.svg" alt="Tool"><small>Python</small></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>© <span id="year"></span> Sushan Paudyal · <a href="mailto:contact@sushanpaudyal.com">contact@sushanpaudyal.com</a></p>
+        <div class="footer-small">Last updated: <span id="lastUpdated"></span></div>
+    </footer>
+
+    <script defer src="assets/js/theme.js"></script>
+    <script defer src="assets/js/reveal.js"></script>
+    <a href="#" id="backToTop" class="back-to-top btn">Back to top</a>
+
+    <script defer src="assets/js/utils.js"></script>
+</body>
+</html>
+
